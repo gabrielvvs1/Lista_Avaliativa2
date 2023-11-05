@@ -38,7 +38,7 @@ double calcular_forca(int forcas[], char posicoes[]){
     return F;
 }
 
-int main(){
+    int main(){
 
     char nome1[31], nome2[31];
     char posicao[N], posicao2[N];
@@ -57,7 +57,6 @@ int main(){
     scanf("%[^\n]%*c", nome2);
 
     for (int i = 0; i < N; i++){
-
         char nome[31];
         scanf("%[^;];%c;%d%*c", nome, &posicao2[i], &forcas2[i]);
     }
@@ -70,7 +69,7 @@ int main(){
     if (forca1 > forca2){
         printf("%s eh mais forte\n", nome1);
     }
-    else if (forca1 < forca2) {
+    else if (forca1 < forca2){
         printf("%s eh mais forte\n", nome2);
     }
     else {
